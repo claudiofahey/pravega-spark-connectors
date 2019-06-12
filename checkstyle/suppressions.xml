@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<!--~
+   Copyright (c) 2017 Dell Inc., or its subsidiaries.
+-->
+
+<suppressions>
+    <suppress checks="JavadocStyle" files=".+(Test|Tests|ITCase)\.java" />
+    <suppress checks="JavadocMethod" files=".+(Test|Tests|ITCase)\.java" />
+    <suppress checks="IllegalThrows" files=".+(Test|Tests|ITCase)\.java" />
+    <suppress files="[\\/]generated[\\/]" checks="[a-zA-Z0-9]*"/>
+</suppressions>
+
